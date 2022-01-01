@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #212824;
+  position: relative;
+  height: 100vh;
+  color: aliceblue;
+  font: large sans-serif;
+}
+.firstHeader{
+  font-size: 58px;
+  text-align: center;
+}
+.X_or_O{
+  display: inline-block;
+  height: 40px;
+  width: 100px;
+}
+#X,
+#O{
+  font-size: 25px;
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: #212824;
+  border: 1px solid rgb(200, 180, 180);
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgba(200, 200, 200, 0.7);
+  transition: 0.3s;
+}
+#X:hover,
+#O:hover{
+  color: white;
+  background-color: black;
+}
+#X:focus,
+#O:focus{
+  font-size: 30px;
+  outline: 0;
+}
+#X:focus{color: navy;}
+#O:focus{color: rgb(197, 0, 0);}
+/*****************************Game table*****************************/
+.gameTable{
+  margin: 0 25%;
+}
+.topLine,
+.midLine,
+.botLine{
+  position: relative;
+  height: 23vh;
+  align-content: center;
+  width: 100%;
+  
+}
+
+.topLine,
+.midLine{
+  margin-bottom: 20px;
+}
+.top,
+.mid,
+.bot{
+  position: absolute;
+  background-color: black;
+  height: 100%;
+  width: 30%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 100px;
+}
+.left,
+.center{
+  margin-right: 5%;
+}
+.center{
+  transform: translateX(116%);
+}
+.right{
+  transform: translateX(233%);
+}
+
+.replay{
+  font-size: 25px;
+  background-color: #212824;
+  margin-left: 10px;
+  padding: 2px 5px;
+  border: 1px solid rgb(200, 180, 180);
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgba(200, 200, 200, 0.7);
+  transition: 0.3s;
+}
+.replay:hover {
+  font-size: 30px;
+}
+.replay:focus {
+  color: red;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************** crash course project**********************/
+/* .red,
+.green,
+.blue{
+  text-align: center;
+
+  width: 300px;
+  margin: 15px 0 0 20px;
+  height: 100px;
+  font-weight: 500;
+  font:40px sans-serif;
+}
+.red{background-color: red;}
+.green{background-color: green;}
+.blue{background-color: blue;} */
